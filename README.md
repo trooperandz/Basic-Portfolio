@@ -11,7 +11,7 @@
 
 # There are two different sets of files, with the following subject matter and contents:
 
-1. Full-screen width layout with header and footer stretching the entire page (better aesthetics):
+1. Full-screen , fluid grid layout (responsive characteristics):
  * index.html
  * portfolio.html
  * contact.html
@@ -24,7 +24,7 @@
  * contact_fixed_container.html
  * style_fixed_width_960px.css
 
-## Please note that the custom grid system in the exercise makes it impossible to stretch the main `<section>` and `<aside>` areas to the specifications in the original instructions.
+## Please note that the custom grid system in the exercise makes it impossible to stretch the main `<section>` and `<aside>` areas to the specifications in the original instructions when container width == 960px.
 ##Programmatically, the grid system is better for long-term maintenance and adaptability.
 
 
