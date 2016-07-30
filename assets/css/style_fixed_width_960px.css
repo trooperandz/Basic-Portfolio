@@ -26,6 +26,7 @@ section, aside {
 header {
 	border-bottom: 4px solid #cccccc;
 	border-radius: 0 0 5px 5px;
+	width: 100%;
 }
 
 nav {
@@ -75,9 +76,10 @@ footer {
 	border-radius: 5px 5px 0 0;
 	background: #666666;
 	clear: both;
+	width: 100%;
 	/* sticky footer styles */
 	position: absolute;
-	width: 960px; /* same as parent container. width: 100%; caused div .container overflow */
+	/*width: 960px; *//* same as parent container. width: 100%; caused div .container overflow */
 	bottom: 0;
 }
 
