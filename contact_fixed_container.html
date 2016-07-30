@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Portfolio - Matthew Holland </title>
+
+		<!-- Apply CSS reset file to maintain cross-browser compatibility -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+		<!-- This is the fixed-width 960px layout, with header & footer not == full-width. See other files for full-width layout. -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style_fixed_width_960px.css">
+	</head>
+	<body>
+		<!-- Note: these 'bootstrap look-alike' classes are custom; I've wanted to try and replicate it to understand it better.
+		     However, it cause the <section> and <aside> containers to not be able to meet the specs in the instructions.
+		     Programmatically, I believe it is better to lay the site out like this, as it makes adding new content and managing
+		     existing content easier.  Worrrrrd!
+		 -->
+		<div class="container">
+			<header class="bg-white">
+				<div class="row">
+					
+					<div class="col-1 columns">
+						<p> </p>
+					</div>
+					
+					<div class="col-4 columns name">
+						<h1 class="text-center"> Matthew Holland </h1>
+					</div>
+					
+					<div class="col-3 columns">
+						<p> </p>
+					</div>
+	
+					<nav class="col-3 columns">
+						<ul class="inline-ul no-bullet">
+							<li class="first"> <a href="index_fixed_container.html">About</a> </li>
+							<li> <a href="portfolio_fixed_container.html">Portfolio</a> </li>
+							<li> <a href="contact_fixed_container.html">Contact</a> </li>
+						</ul>
+					</nav>
+	
+					<div class="col-1 columns">
+						<p> </p>
+					</div>
+				</div> <!-- .row -->
+			</header>
+
+			<div class="row placeholder">
+				<div class="col-12 columns">
+					<p> </p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-1 columns">
+					<p> </p>
+				</div>
+				<section class="col-6 columns bg-white">
+						<h1> About Me </h1>
+						<hr/>
+	
+						<article>
+							<form>
+								<div class="form-group">
+									<label for="name" name="name" placeholder="John Smith"> Name </label>
+									<input class="form-control" type="text" name="name" />
+								</div>
+
+								<div class="form-group">
+									<label for="email" name="email" placeholder="example@gmail.com"> Email </label>
+									<input class="form-control" type="text" name="email" />
+								</div>
+
+								<div class="form-group">
+									<label for="message"> Message </label>
+									<textarea class="form-control text-area" name="message"> </textarea>
+								</div>
+
+								<input type="submit" name="submit"/>
+							</form>
+						</article>
+				</section>
+
+				<div class="col-1 columns">
+					<p> </p>
+				</div>
+	
+				<aside class="col-3 columns bg-white">
+					<h3 class="text-center"> Connect With Me </h3>
+					<hr/>
+	
+					<ul class="inline-ul no-bullet">
+						<li> <a href="#"><img src="assets/images/github-icon.png"   height="53" width="53" alt="Github"/>         </a></li>
+						<li> <a href="#"><img src="assets/images/linkedin-icon.png" height="53" width="53" alt="LinkedIn"/>       </a></li>
+						<li> <a href="#"><img src="assets/images/stackoverflow.png" height="53" width="53" alt="Stack Overflow"/> </a></li>
+					</ul>
+				</aside>
+	
+
+				<div class="col-1 columns">
+					<p> </p>
+				</div>
+			</div> <!-- .row -->
+
+			<footer>
+				<div class="row">
+					<div class="col-4 columns">
+						<p> </p>
+					</div>
+
+					<div class="col-4 columns">	
+						<h5 class="text-center"> &copy; 2016 Matthew Holland </h5>
+					</div>
+
+					<div class="col-4 columns">
+						<p> </p>
+					</div>
+				</div>
+			</footer>
+		</div> <!-- .container -->
+	</body>
+</html>
