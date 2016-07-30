@@ -6,7 +6,7 @@
 		<!-- Apply CSS reset file to maintain cross-browser compatibility -->
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 
-		<!-- This is the fixed-width 960px layout, with header & footer not == full-width -->
+		<!-- This is the fixed-width 960px content layout. See other files for fluid layout. -->
 		<link rel="stylesheet" type="text/css" href="assets/css/style_fixed_width_960px.css">
 	</head>
 	<body>
@@ -15,10 +15,9 @@
 		     Programmatically, I believe it is better to lay the site out like this, as it makes adding new content and managing
 		     existing content easier.  Worrrrrd!
 		 -->
-		<div class="container">
-			<header class="bg-white">
+		<header class="bg-white">
+		 	<div class="container"> <!-- make sure the grid width works in scale since total header width is 100% -->
 				<div class="row">
-					
 					<div class="col-1 columns">
 						<p> </p>
 					</div>
@@ -30,7 +29,7 @@
 					<div class="col-3 columns">
 						<p> </p>
 					</div>
-	
+		
 					<nav class="col-3 columns">
 						<ul class="inline-ul no-bullet">
 							<li class="first"> <a href="index_fixed_container.html">About</a> </li>
@@ -38,13 +37,15 @@
 							<li> <a href="contact_fixed_container.html">Contact</a> </li>
 						</ul>
 					</nav>
-	
+		
 					<div class="col-1 columns">
 						<p> </p>
 					</div>
 				</div> <!-- .row -->
-			</header>
+			</div> <!-- .container -->
+		</header>
 
+		<div class="container"> <!-- Main site content -->
 			<div class="row placeholder">
 				<div class="col-12 columns">
 					<p> </p>
@@ -122,22 +123,25 @@
 					<p> </p>
 				</div>
 			</div> <!-- .row -->
-
-			<footer>
+		</div> <!-- .container -->
+		
+		<footer>
+			<div class="container"> <!-- make sure the grid width works in scale since total footer width is 100% -->
 				<div class="row">
 					<div class="col-4 columns">
 						<p> </p>
 					</div>
-
+	
 					<div class="col-4 columns">	
 						<h5 class="text-center"> &copy; 2016 Matthew Holland </h5>
 					</div>
-
+	
 					<div class="col-4 columns">
 						<p> </p>
 					</div>
-				</div>
-			</footer>
-		</div> <!-- .container -->
+				</div> <!-- .row -->
+			</div> <!-- .container -->
+		</footer>
+
 	</body>
 </html>
