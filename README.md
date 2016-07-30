@@ -18,7 +18,7 @@
  * style.css
 
 
-2. Fixed-width container layout with width == 960px, per original instructions:
+2. Fixed-width container grid layout with width == 960px, per original instructions:
  * index_fixed_container.html
  * portfolio_fixed_container.html
  * contact_fixed_container.html
