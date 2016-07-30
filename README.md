@@ -24,8 +24,7 @@
  * contact_fixed_container.html
  * style_fixed_width_960px.css
 
-## Please note that the custom grid system in the exercise makes it impossible to stretch the
-## main --<section>-- and --<aside>-- areas to the specifications in the original instructions.
-## Programmatically, the grid system is better for long-term maintenance and adaptability.
+## Please note that the custom grid system in the exercise makes it impossible to stretch the main `<section>` and `<aside>` areas to the ##specifications in the original instructions.
+##Programmatically, the grid system is better for long-term maintenance and adaptability.
 
 
