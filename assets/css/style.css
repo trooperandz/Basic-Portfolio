@@ -49,6 +49,24 @@ section {
 	margin-bottom: 45px;
 }
 
+/* Make the image rotate on hover event */
+img {
+    border-radius: 7px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+/* Make the image rotate on hover event */	
+img:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+/* Heading section line dividers */
 hr {
 	display: block; 
 	height: 1px; 
@@ -182,7 +200,7 @@ input[type="submit"]:hover {
 	background-color: #008cba;
 	cursor: pointer;
 }
-
+/* Styling for form inputs */
 .form-control {
 	display: block;
 	width: 100%;
@@ -193,7 +211,7 @@ input[type="submit"]:hover {
 	color: #555;
 	border: .5px solid #ccc;
 }
-
+/* Apply margin to input elements */
 .form-group {
 	margin-bottom: 15px;
 }
@@ -202,22 +220,10 @@ input[type="submit"]:hover {
 	height: 120px;
 }
 
-.page-wrap {
-	min-height: 100%;
-	margin-bottom: -80px;
-}
-
-.page-wrap:after {
-  	content: "";
-  	display: block;
-  	height: 80px;
-}
-
 .columns {
 	float: left;
-	/*border: 1px solid red;*/
 }
-
+/* Grid styling */
 .col-1 {
 	width: 8.33%;
 }
@@ -275,7 +281,6 @@ input[type="submit"]:hover {
 .container {
 	/* Center the main container div */
 	margin: 0 auto;
-	/*width: 1300px;*/
 	width: 100%;
 }
 /* Clear the flow of the page after .row, so content does not float up into the row */
@@ -284,29 +289,29 @@ input[type="submit"]:hover {
 	clear: both;
 	display: block;
 }
-
+/* Try to make the space between the top and bottom of the <section>, <header> and <footer>s equivalent */
 .placeholder {
-	height: 40px; /* try to make the space between the top and bottom of the <section>, <header> and <footer>s equivalent */
+	height: 40px; 
 }
 
 .bg-white {
 	background: #fff;
 }
-
+/* Make the text flow up to the right of the bio pic */
 .bio-pic {
 	float: left;
 	margin-right: 25px;
 }
-
+/* Make sure that the first <li> element has no left border */
 .first {
 	border: none;
 	/*padding: 0;*/
 }
-
+/* Center all main headings */
 .text-center {
 	text-align: center;
 }
-
+/* Give the navigation <li> elements separators */
 .li-border-lft {
 	border-left: 1px solid #fff;
 }
