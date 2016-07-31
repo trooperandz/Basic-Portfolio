@@ -32,9 +32,9 @@ header {
 nav {
 	text-align: center;
 }
-
+/* Move the nav ul down, inline with the <h1> name */
 nav ul {
-	padding: 35px 0 28px 0;
+	margin-top: 36px;
 }
 
 nav ul li {
